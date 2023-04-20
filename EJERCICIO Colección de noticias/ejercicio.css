@@ -1,0 +1,28 @@
+body {
+    background: linear-gradient(to right, pink, purple);
+    border-top: 10px;
+  }
+
+article {
+    border: 20px solid white;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-block;
+    background: white;
+}
+
+article img {
+    max-width: 100%;
+}
+
+article h1 {
+    font-size: medium;
+}
+
+article time {
+    font-size: small;
+}
