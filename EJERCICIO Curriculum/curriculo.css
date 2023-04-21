@@ -1,0 +1,114 @@
+.imagen {
+	height: 200px;
+  width: 50%;
+}
+
+img {
+    max-width: 100%;  
+
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+}
+
+.contenedor {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.izquierda {
+	width: 25%;
+	padding: 20px;
+	box-sizing: border-box;
+    background: darkgray;
+}
+
+.izquierda h2{
+    color: white;
+}
+
+.derecha {
+	width: 75%;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+
+.bloque {
+	margin-bottom: 20px;
+}
+
+
+
+.datos-personales, .direccion, .contacto, .idiomas {
+	text-align: justify;
+}
+
+.datos-personales h2, .direccion h2, .contacto h2, .idiomas h2 {
+	margin-top: 0;
+}
+
+.barra {
+	display: inline-block;
+	width: 100px;
+	height: 10px;
+	border: 1px solid black;
+}
+
+.lleno {
+	background-color: green;
+}
+
+.vacio {
+	background-color: lightgray;
+}
+
+h1 {
+	text-align: center;
+	font-size: 36px;
+	margin-top: 0;
+}
+
+.separador {
+	border-top: 1px solid black;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.educacion h2, .experiencia h2, .otros h2, .conocimientos h2 {
+	margin-top: 0;
+}
+
+.educacion ul, .experiencia ul, .otros ul, .conocimientos ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.educacion h3, .experiencia h3 {
+	margin-top: 0;
+}
+
+.educacion p, .experiencia p {
+	margin: 0;
+}
+
+.bloque.conocimientos ul {
+	display: flex;
+	justify-content: center;
+}
+
+.bloque.conocimientos li {
+	margin: 0 10px;
+	font-size: 36px;
+	color: #333;
+}
+
+.fa-html5, .fa-css3, .fa-js, .fa-python, .fa-database {
+	color: #333;
+    
+}
